@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    list-style: none;
+}
+.header-menu{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    height: 60px;
+    background-color: #151e97;
+}
+.header-menu nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.lista-menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+.lista-menu li>a{
+    font-size: 10px;
+    color: aliceblue;
+    text-decoration: #2a41c5;
+}
+.principal{
+    height: 100vh;
+    display: flex;
+    background-color: #EAEAEA;
+}
+.foto{
+    border-radius: 200px;
+    border-style: dotted;
+    border-color: #091794;
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+.subcontainer-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.nome-completo{
+    font: 36px;
+    color: #091794;
+    font-weight: 700;
+    height: 45px;
+    text-decoration: none;
+}
+.infos{
+    color: #091794;
+    height: 45px;
+}
+.profissao{
+    color: #091794;
+    height: 60px;
+}
+.texto-sobre{
+    font-size: 20px;
+    line-height: 32px;
+    color: #424242;
+}
+.article-lista{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+.topico-principal{
+    font-size: 36px;
+    color: #002466;
+}
+.lista-item{
+    padding: 32px;
+
+}
+.lista-titulo{
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #2a41c5;
+    font-weight: 700;
+}
+.lista-local{
+    font-size: 18px;
+    color: #0039a3;
+    text-decoration: none;
+}
+.lista-descricao{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 20px;
+    color:#424242;
+    font-weight: 300;
+}
+.formacao{
+    padding: 1px;
+}
+.portfolio{
+    background-color: #EAEAEA;
+    height: 50vh;
+    padding: 1px;
+}
+.article-topico{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+.footer-menu{
+    display: flex;
+    width: 100%;
+    padding: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 100px;
+    height: 150px;
+    background-color: #151e97;
+}
+.contatos{
+    width: 100%;
+    display: flex;
+    color: grey;
+    font-size: 18px;
+    line-height: 30px;
+}
+.topico-midia{
+    font-size: 18px;
+    color: #EAEAEA;
+    text-decoration: none;
+}
+.contador {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .btn-like {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: end;
+  }
+  .btn-like .like-count {
+    margin-left: 5px;
+  }
+  .btn-like i {
+    margin-right: 5px;
+  } 
+  .btn-like.liked i {
+    color: red;
+  }
